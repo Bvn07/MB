@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+.logo img{
+    width: 8%;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    margin: 0 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+}
+.navBar{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+.navBar a{
+    padding: 0 20px;
+    color: black;
+    border-radius: 15px;
+}
+.navBar a:hover{
+    background-color: rgb(255, 100, 0);
+    color: white;
+    padding: 5 0px;
+}
+/* Navigation End */
+
+/* Hero Section */
+#heroSec{
+    background: linear-gradient(rgba(255, 166, 0, 0.235),rgba(255, 255, 255, 0.200)),url(images/bg3.jpg) no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heroSec h2{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 1000;
+}
+#heroSec p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 100, 0);
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+}
+.btn a:hover{
+    background-color: black;
+}
+/* Hero Section End */
+
+/* Our Product Section */
+#product{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product h3{
+    font-size: 60px;
+    font-weight: 1000;
+}
+#productContent{
+    display: flex;
+    margin: 20px 300px;
+    justify-content: space-between;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(236, 246, 255);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.icon{
+    color: rgb(0, 72, 255);
+    background-color: rgb(0, 29, 101);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 8%;
+}
+.services h2{
+    color: rgb(0, 29, 101);
+    font-weight: 800;
+}
+#title{
+    color:rgb(0, 29, 101);
+    font-weight: 800;
+}
+.services p{
+    font-weight: 400;
+    color: black;
+}
+/* Our Product Section End*/
+
+/* About Us Section */
+#aboutUs{
+    height: 90vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+}
+.image img{
+    width: 100%;
+    height: auto;
+    
+}
+.content{
+    margin: 0 100px;
+} 
+.image{
+    margin: 0 100px;
+}
+.content h2{
+    font-size: 60px;
+    color: rgb(255, 100, 0);
+}
+.content p{
+    font-size: 18px;
+    color: rgb(117, 47, 0);
+}
+/* About Us Section End */
+
+/* Testimonial */
+.test{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 300px;
+    align-items: center;
+}
+.avtar img{
+    width: 100px;
+}
+.test h2{
+    color:rgb(0, 29, 101);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    color: rgb(0, 56, 101);
+}
+/* Testimonial End */
+
+/* Contact Us Section */
+#contact{
+    height: 30vh;
+    background-color: rgb(255, 100, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe a{
+    text-decoration: none;
+    color: rgb(255, 100, 0);
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin: 30px;
+    display: inline-block;
+}
+.subscribe a:hover{
+    background-color: black;
+    color: white;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 253, 253);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Contact Us Section End */
+
+/* Footer */
+#con{
+    display: flex;
+    justify-content: center;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+}
+.footContent{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footContent h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+.footContent p{
+    text-align: center;
+}
+.footContent a{
+    text-decoration: none;
+    color: black;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    color: white;
+    background-color: rgb(15, 15, 15);
+}
+#copyright p{
+    font-size: 12px;
+}
+#icons{
+    display: flex;
+}
+.fa-brands{
+    margin: 5px;
+}
+/* Footer End */
